@@ -247,10 +247,3 @@ chore(release): configure semantic release
 ## License
 
 MIT
-
-```
-::contentReference[oaicite:2]{index=2}
-```
-
-[1]: https://raw.githubusercontent.com/reytech-dev/spec-kit-draft/main/extension.yml "raw.githubusercontent.com"
-[2]: https://raw.githubusercontent.com/reytech-dev/spec-kit-draft/main/commands/create.md "raw.githubusercontent.com"
