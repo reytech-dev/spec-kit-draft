@@ -4,6 +4,10 @@
 tests/
 .github/
 .gitignore
+.releaserc.yml
+commitlint.config.cjs
+package-lock.json
+package.json
 
 # Build artifacts
 __pycache__/
@@ -14,6 +18,7 @@ dist/
 docs/
 CONTRIBUTING.md
 
+# Agent subdirs
 .claude/
 .specify/
 .opencode/
