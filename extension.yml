@@ -23,12 +23,6 @@ provides:
       description: "Create a new draft for a specification"
       aliases: ["speckit.draft.new"]
 
-  config:
-    - name: "draft-config.yml"
-      template: "my-ext-config.template.yml"
-      description: "Extension configuration"
-      required: false
-
 hooks:
   before_specify:
     command: "speckit.draft.create"
