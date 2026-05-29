@@ -1,0 +1,39 @@
+
+
+schema_version: "1.0"
+
+extension:
+  id: "draft"
+  name: "Specify Draft"
+  version: "1.0.0"
+  description: "Draft input specification for spec-kit.specify command"
+  author: "reytech-dev"
+  repository: "https://github.com/reytech-dev/spec-kit-draft"
+  license: "MIT"
+
+requires:
+  speckit_version: ">=0.8.14"
+  commands:                             
+    - "speckit.specify"                 
+
+provides:
+  commands:
+    - name: "speckit.draft.create"
+      file: "commands/create.md"
+      description: "Create a new draft for a specification"
+      aliases: ["speckit.draft.new"]
+
+  config:
+    - name: "draft-config.yml"
+      template: "my-ext-config.template.yml"
+      description: "Extension configuration"
+      required: false
+
+hooks:
+  before_specify:
+    command: "speckit.draft.create"
+    optional: true
+    prompt: "Create a new draft for a specification?"
+
+tags:
+  - "utility"
