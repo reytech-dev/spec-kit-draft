@@ -1,3 +1,11 @@
+## 1.2.0 (2026-05-30)
+
+* feat(create): update create command to consider existing open-design assets if found ([288c5f4](https://github.com/reytech-dev/spec-kit-draft/commit/288c5f4))
+* chore(cleanup): remove not needed paragraphs in README ([d203ce1](https://github.com/reytech-dev/spec-kit-draft/commit/d203ce1))
+* chore(config): add not needed files to .extensionignore ([dafb1e3](https://github.com/reytech-dev/spec-kit-draft/commit/dafb1e3))
+* chore(README): add README.md file with information about repository and usage instructions ([6d4f939](https://github.com/reytech-dev/spec-kit-draft/commit/6d4f939))
+* Merge branch 'main' of github.com:reytech-dev/spec-kit-draft ([c38873f](https://github.com/reytech-dev/spec-kit-draft/commit/c38873f))
+
 ## 1.1.0 (2026-05-29)
 
 * feat(config): cleanup not needed configs ([fc3b6ba](https://github.com/reytech-dev/spec-kit-draft/commit/fc3b6ba))
